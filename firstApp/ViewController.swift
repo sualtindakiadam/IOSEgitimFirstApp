@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var passwordControlTF: UITextField!
     
-    
+    //test
     var incomingName="";
     
     
