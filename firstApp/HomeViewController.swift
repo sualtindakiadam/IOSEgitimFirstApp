@@ -33,6 +33,9 @@ class HomeViewController: UIViewController {
         performSegue(withIdentifier: "catchGamePage", sender: nil)
         
     }
+    @IBAction func CityTableViewClicked(_ sender: Any) {
+        performSegue(withIdentifier: "cityTableVC", sender: nil)
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {    //segue olmadan heen önce yapılabilecek işlemler yazılır
         

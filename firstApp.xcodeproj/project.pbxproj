@@ -13,6 +13,8 @@
 		952B603926BD2AD200BF76BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952B603726BD2AD200BF76BB /* Main.storyboard */; };
 		952B603B26BD2AD300BF76BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952B603A26BD2AD300BF76BB /* Assets.xcassets */; };
 		952B603E26BD2AD300BF76BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952B603C26BD2AD300BF76BB /* LaunchScreen.storyboard */; };
+		957A542926C3F188007BFCD2 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A542826C3F188007BFCD2 /* CityTableViewController.swift */; };
+		957A542B26C40071007BFCD2 /* CityTableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */; };
 		95A6AB0726C2AB4D00948712 /* JestAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */; };
 		95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */; };
 		95DA30C126C27A680012B58C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA30C026C27A680012B58C /* HomeViewController.swift */; };
@@ -27,6 +29,8 @@
 		952B603A26BD2AD300BF76BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952B603D26BD2AD300BF76BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		952B603F26BD2AD300BF76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957A542826C3F188007BFCD2 /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableDetailViewController.swift; sourceTree = "<group>"; };
 		95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestAppViewController.swift; sourceTree = "<group>"; };
 		95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGameViewController.swift; sourceTree = "<group>"; };
 		95DA30C026C27A680012B58C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -67,11 +71,13 @@
 				952B603526BD2AD200BF76BB /* ViewController.swift */,
 				95DA30C026C27A680012B58C /* HomeViewController.swift */,
 				95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */,
+				957A542826C3F188007BFCD2 /* CityTableViewController.swift */,
 				95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */,
 				952B603726BD2AD200BF76BB /* Main.storyboard */,
 				952B603A26BD2AD300BF76BB /* Assets.xcassets */,
 				952B603C26BD2AD300BF76BB /* LaunchScreen.storyboard */,
 				952B603F26BD2AD300BF76BB /* Info.plist */,
+				957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */,
+				957A542B26C40071007BFCD2 /* CityTableDetailViewController.swift in Sources */,
 				952B603626BD2AD200BF76BB /* ViewController.swift in Sources */,
 				95A6AB0726C2AB4D00948712 /* JestAppViewController.swift in Sources */,
+				957A542926C3F188007BFCD2 /* CityTableViewController.swift in Sources */,
 				952B603226BD2AD200BF76BB /* AppDelegate.swift in Sources */,
 				952B603426BD2AD200BF76BB /* SceneDelegate.swift in Sources */,
 				95DA30C126C27A680012B58C /* HomeViewController.swift in Sources */,
