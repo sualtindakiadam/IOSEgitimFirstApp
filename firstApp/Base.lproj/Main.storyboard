@@ -32,7 +32,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFa-Mp-laF">
                                 <rect key="frame" x="20" y="172" width="141" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="141" id="XeY-rq-QIO"/>
+                                    <constraint firstAttribute="width" constant="141" id="KaQ-DI-LNa"/>
                                 </constraints>
                                 <state key="normal" title="First App (veri aktar)"/>
                                 <connections>
@@ -65,26 +65,35 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXK-Qh-DKX">
+                                <rect key="frame" x="20" y="324" width="135" height="30"/>
+                                <state key="normal" title="SimpsonsTable App"/>
+                                <connections>
+                                    <action selector="SimpsonsTableAppClicked:" destination="6He-7w-75O" eventType="touchUpInside" id="LSG-mb-XvZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AXI-yo-hS5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QG9-g0-rfm" firstAttribute="centerX" secondItem="WqA-Kw-9hJ" secondAttribute="centerX" id="09m-ng-mWz"/>
-                            <constraint firstItem="Z1j-4p-Err" firstAttribute="top" secondItem="JDA-pf-NFF" secondAttribute="bottom" constant="8" id="4jT-76-tVd"/>
-                            <constraint firstItem="JRN-ws-biZ" firstAttribute="trailing" secondItem="rxo-yL-KdG" secondAttribute="trailingMargin" id="76S-zw-5Yk"/>
-                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="leading" secondItem="AXI-yo-hS5" secondAttribute="leading" constant="113" id="EWQ-xO-5bN"/>
-                            <constraint firstItem="QG9-g0-rfm" firstAttribute="centerX" secondItem="rxo-yL-KdG" secondAttribute="centerX" id="EtT-E7-3Tj"/>
-                            <constraint firstItem="JRN-ws-biZ" firstAttribute="leading" secondItem="sFa-Mp-laF" secondAttribute="trailing" constant="48" id="Ho1-Ae-h71"/>
-                            <constraint firstItem="KLR-21-S7U" firstAttribute="leading" secondItem="JDA-pf-NFF" secondAttribute="leading" id="LWa-6z-v9h"/>
-                            <constraint firstItem="sFa-Mp-laF" firstAttribute="leading" secondItem="KLR-21-S7U" secondAttribute="leading" id="Lxg-Vp-Wqk"/>
-                            <constraint firstItem="sFa-Mp-laF" firstAttribute="bottom" secondItem="JRN-ws-biZ" secondAttribute="bottom" id="U5X-Ml-p9U"/>
-                            <constraint firstItem="sFa-Mp-laF" firstAttribute="leading" secondItem="rxo-yL-KdG" secondAttribute="leadingMargin" id="X9u-vK-U0k"/>
-                            <constraint firstItem="KLR-21-S7U" firstAttribute="top" secondItem="sFa-Mp-laF" secondAttribute="bottom" constant="8" id="ZCL-iW-1vZ"/>
-                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="top" secondItem="AXI-yo-hS5" secondAttribute="top" constant="12" id="c49-8j-cDW"/>
-                            <constraint firstItem="JRN-ws-biZ" firstAttribute="top" secondItem="WqA-Kw-9hJ" secondAttribute="bottom" constant="38" id="cgp-j5-Zld"/>
-                            <constraint firstItem="JDA-pf-NFF" firstAttribute="top" secondItem="KLR-21-S7U" secondAttribute="bottom" constant="8" id="cna-hI-pFp"/>
-                            <constraint firstItem="JDA-pf-NFF" firstAttribute="leading" secondItem="Z1j-4p-Err" secondAttribute="leading" id="lbI-He-cZ2"/>
-                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="top" secondItem="QG9-g0-rfm" secondAttribute="bottom" constant="23" id="r3m-BN-kt2"/>
+                            <constraint firstItem="JRN-ws-biZ" firstAttribute="trailing" secondItem="rxo-yL-KdG" secondAttribute="trailingMargin" id="2qB-4o-P0x"/>
+                            <constraint firstItem="Z1j-4p-Err" firstAttribute="leading" secondItem="hXK-Qh-DKX" secondAttribute="leading" id="5bO-Ne-Q5l"/>
+                            <constraint firstItem="JRN-ws-biZ" firstAttribute="top" secondItem="WqA-Kw-9hJ" secondAttribute="bottom" constant="38" id="68W-6t-cOG"/>
+                            <constraint firstItem="Z1j-4p-Err" firstAttribute="top" secondItem="JDA-pf-NFF" secondAttribute="bottom" constant="8" id="7kN-Sm-vGt"/>
+                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="top" secondItem="QG9-g0-rfm" secondAttribute="bottom" constant="23" id="8Pg-Gj-y71"/>
+                            <constraint firstItem="sFa-Mp-laF" firstAttribute="bottom" secondItem="JRN-ws-biZ" secondAttribute="bottom" id="FAz-U7-Paz"/>
+                            <constraint firstItem="KLR-21-S7U" firstAttribute="leading" secondItem="JDA-pf-NFF" secondAttribute="leading" id="Qbo-34-UXB"/>
+                            <constraint firstItem="JRN-ws-biZ" firstAttribute="leading" secondItem="sFa-Mp-laF" secondAttribute="trailing" constant="48" id="Tnw-qN-WvH"/>
+                            <constraint firstItem="hXK-Qh-DKX" firstAttribute="top" secondItem="Z1j-4p-Err" secondAttribute="bottom" constant="8" id="X1u-Vd-iYa"/>
+                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="leading" secondItem="AXI-yo-hS5" secondAttribute="leading" constant="113" id="Xsm-yd-q2s"/>
+                            <constraint firstItem="sFa-Mp-laF" firstAttribute="leading" secondItem="rxo-yL-KdG" secondAttribute="leadingMargin" id="a0G-c8-OeC"/>
+                            <constraint firstItem="QG9-g0-rfm" firstAttribute="centerX" secondItem="rxo-yL-KdG" secondAttribute="centerX" id="bcM-BV-dPW"/>
+                            <constraint firstItem="KLR-21-S7U" firstAttribute="top" secondItem="sFa-Mp-laF" secondAttribute="bottom" constant="8" id="c4y-Jm-bI4"/>
+                            <constraint firstItem="WqA-Kw-9hJ" firstAttribute="top" secondItem="AXI-yo-hS5" secondAttribute="top" constant="12" id="geR-88-bNW"/>
+                            <constraint firstItem="sFa-Mp-laF" firstAttribute="leading" secondItem="KLR-21-S7U" secondAttribute="leading" id="jym-aU-WWr"/>
+                            <constraint firstItem="JDA-pf-NFF" firstAttribute="leading" secondItem="Z1j-4p-Err" secondAttribute="leading" id="ugt-UH-nmb"/>
+                            <constraint firstItem="QG9-g0-rfm" firstAttribute="centerX" secondItem="WqA-Kw-9hJ" secondAttribute="centerX" id="wzQ-c0-u5i"/>
+                            <constraint firstItem="JDA-pf-NFF" firstAttribute="top" secondItem="KLR-21-S7U" secondAttribute="bottom" constant="8" id="xPA-rv-s8E"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3cr-BA-U4m"/>
@@ -94,11 +103,12 @@
                         <segue destination="C3m-U4-qvw" kind="show" identifier="jestAppPage" id="ajU-Xs-x5q"/>
                         <segue destination="qBJ-Xa-fx9" kind="show" identifier="catchGamePage" id="9Jo-SB-QCK"/>
                         <segue destination="JiK-gF-Nj4" kind="show" identifier="cityTableVC" id="vTI-76-I6j"/>
+                        <segue destination="g9Y-eq-eP6" kind="show" identifier="simpsonsTableAppVC" id="LlY-VC-4Qu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gzI-rd-pI1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="272" y="112"/>
+            <point key="canvasLocation" x="310" y="48"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -326,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1198.5507246376812" y="111.83035714285714"/>
+            <point key="canvasLocation" x="-1013" y="112"/>
         </scene>
         <!--Jest App View Controller-->
         <scene sceneID="8nV-KG-jDm">
@@ -393,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Ew-xC-qKk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="242.0289855072464" y="-563.16964285714278"/>
+            <point key="canvasLocation" x="-1833" y="-630"/>
         </scene>
         <!--Catch Game View Controller-->
         <scene sceneID="1h0-nx-OTg">
@@ -474,7 +484,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L7j-le-Nb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039.1304347826087" y="-543.08035714285711"/>
+            <point key="canvasLocation" x="-1101" y="-615"/>
         </scene>
         <!--City Table View Controller-->
         <scene sceneID="L6q-3l-hZ7">
@@ -506,7 +516,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U23-5N-p1f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2083" y="-513"/>
+            <point key="canvasLocation" x="309" y="-615"/>
         </scene>
         <!--City Table Detail View Controller-->
         <scene sceneID="r0c-6c-qLL">
@@ -551,7 +561,95 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15E-bc-9hE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2849" y="-514"/>
+            <point key="canvasLocation" x="309" y="-1294"/>
+        </scene>
+        <!--Simpsons Table Detail View Controller-->
+        <scene sceneID="gcK-fj-rz2">
+            <objects>
+                <viewController id="C8V-U9-l70" customClass="SimpsonsTableDetailViewController" customModule="firstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QKp-ev-ePh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qqs-du-0hZ">
+                                <rect key="frame" x="20" y="128" width="374" height="192"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvw-5w-w9Z">
+                                <rect key="frame" x="20" y="369" width="374" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="156-xa-H6l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU6-9v-DVq">
+                                <rect key="frame" x="20" y="448" width="374" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="KeV-ug-177"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hjw-rw-2ov"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CU6-9v-DVq" firstAttribute="top" secondItem="Xvw-5w-w9Z" secondAttribute="bottom" constant="22" id="0SX-Uw-eAS"/>
+                            <constraint firstItem="hjw-rw-2ov" firstAttribute="bottom" secondItem="CU6-9v-DVq" secondAttribute="bottom" constant="357" id="CYd-To-2ca"/>
+                            <constraint firstItem="Qqs-du-0hZ" firstAttribute="leading" secondItem="QKp-ev-ePh" secondAttribute="leadingMargin" id="Dju-JL-vpY"/>
+                            <constraint firstItem="Qqs-du-0hZ" firstAttribute="trailing" secondItem="QKp-ev-ePh" secondAttribute="trailingMargin" id="JCj-B1-q5P"/>
+                            <constraint firstItem="Xvw-5w-w9Z" firstAttribute="leading" secondItem="CU6-9v-DVq" secondAttribute="leading" id="Ogg-h9-Suy"/>
+                            <constraint firstItem="Xvw-5w-w9Z" firstAttribute="trailing" secondItem="CU6-9v-DVq" secondAttribute="trailing" id="Qvz-ov-3NU"/>
+                            <constraint firstItem="Xvw-5w-w9Z" firstAttribute="top" secondItem="Qqs-du-0hZ" secondAttribute="bottom" constant="49" id="U2g-cW-Zmx"/>
+                            <constraint firstItem="Qqs-du-0hZ" firstAttribute="top" secondItem="hjw-rw-2ov" secondAttribute="top" constant="40" id="Xek-2T-JmR"/>
+                            <constraint firstItem="Qqs-du-0hZ" firstAttribute="trailing" secondItem="Xvw-5w-w9Z" secondAttribute="trailing" id="kD1-ID-uii"/>
+                            <constraint firstItem="Qqs-du-0hZ" firstAttribute="leading" secondItem="Xvw-5w-w9Z" secondAttribute="leading" id="maX-sp-xnJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ru3-CY-AFN"/>
+                    <connections>
+                        <outlet property="SimpsonsImageView" destination="Qqs-du-0hZ" id="LTu-oD-zhv"/>
+                        <outlet property="jobLabel" destination="CU6-9v-DVq" id="gOj-eL-Osb"/>
+                        <outlet property="nameLabel" destination="Xvw-5w-w9Z" id="Rqr-NG-Xly"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IPr-Of-yYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783" y="-615"/>
+        </scene>
+        <!--Simpsons Table View Controller-->
+        <scene sceneID="Dzr-ls-YK2">
+            <objects>
+                <viewController id="g9Y-eq-eP6" customClass="SimpsonsTableViewController" customModule="firstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="obi-QQ-EQl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZCg-5Z-GN1">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VZY-W4-NxJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VZY-W4-NxJ" firstAttribute="bottom" secondItem="ZCg-5Z-GN1" secondAttribute="bottom" id="6lq-Ur-cWv"/>
+                            <constraint firstItem="VZY-W4-NxJ" firstAttribute="trailing" secondItem="ZCg-5Z-GN1" secondAttribute="trailing" id="7S3-oL-8MW"/>
+                            <constraint firstItem="ZCg-5Z-GN1" firstAttribute="top" secondItem="VZY-W4-NxJ" secondAttribute="top" id="Hhj-rn-vbg"/>
+                            <constraint firstItem="ZCg-5Z-GN1" firstAttribute="leading" secondItem="VZY-W4-NxJ" secondAttribute="leading" id="ZZo-0j-0aU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3rS-vK-Nn7"/>
+                    <connections>
+                        <outlet property="SimpsonsTable" destination="ZCg-5Z-GN1" id="xXa-dS-VT4"/>
+                        <segue destination="C8V-U9-l70" kind="show" identifier="simpsonsTableDetailVC" id="i0n-5Z-dX7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hqo-ej-kZB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1084" y="-615"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gpS-st-GGS">
@@ -569,7 +667,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t1L-Ba-poS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-507.24637681159425" y="111.83035714285714"/>
+            <point key="canvasLocation" x="-1806" y="112"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

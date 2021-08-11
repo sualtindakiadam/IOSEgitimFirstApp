@@ -18,6 +18,9 @@
 		95A6AB0726C2AB4D00948712 /* JestAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */; };
 		95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */; };
 		95DA30C126C27A680012B58C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA30C026C27A680012B58C /* HomeViewController.swift */; };
+		95FF6C5326C41AC800EE113D /* SimpsonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF6C5226C41AC800EE113D /* SimpsonsTableViewController.swift */; };
+		95FF6C5526C41C6000EE113D /* SimpsonsTableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF6C5426C41C6000EE113D /* SimpsonsTableDetailViewController.swift */; };
+		95FF6C5726C421E000EE113D /* SimpsonsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF6C5626C421E000EE113D /* SimpsonsClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestAppViewController.swift; sourceTree = "<group>"; };
 		95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGameViewController.swift; sourceTree = "<group>"; };
 		95DA30C026C27A680012B58C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		95FF6C5226C41AC800EE113D /* SimpsonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsTableViewController.swift; sourceTree = "<group>"; };
+		95FF6C5426C41C6000EE113D /* SimpsonsTableDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsTableDetailViewController.swift; sourceTree = "<group>"; };
+		95FF6C5626C421E000EE113D /* SimpsonsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonsClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +79,14 @@
 				95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */,
 				957A542826C3F188007BFCD2 /* CityTableViewController.swift */,
 				95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */,
+				957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */,
+				95FF6C5226C41AC800EE113D /* SimpsonsTableViewController.swift */,
+				95FF6C5426C41C6000EE113D /* SimpsonsTableDetailViewController.swift */,
 				952B603726BD2AD200BF76BB /* Main.storyboard */,
 				952B603A26BD2AD300BF76BB /* Assets.xcassets */,
 				952B603C26BD2AD300BF76BB /* LaunchScreen.storyboard */,
 				952B603F26BD2AD300BF76BB /* Info.plist */,
-				957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */,
+				95FF6C5626C421E000EE113D /* SimpsonsClass.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -154,12 +163,15 @@
 			files = (
 				95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */,
 				957A542B26C40071007BFCD2 /* CityTableDetailViewController.swift in Sources */,
+				95FF6C5526C41C6000EE113D /* SimpsonsTableDetailViewController.swift in Sources */,
 				952B603626BD2AD200BF76BB /* ViewController.swift in Sources */,
 				95A6AB0726C2AB4D00948712 /* JestAppViewController.swift in Sources */,
+				95FF6C5326C41AC800EE113D /* SimpsonsTableViewController.swift in Sources */,
 				957A542926C3F188007BFCD2 /* CityTableViewController.swift in Sources */,
 				952B603226BD2AD200BF76BB /* AppDelegate.swift in Sources */,
 				952B603426BD2AD200BF76BB /* SceneDelegate.swift in Sources */,
 				95DA30C126C27A680012B58C /* HomeViewController.swift in Sources */,
+				95FF6C5726C421E000EE113D /* SimpsonsClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
