@@ -1,3 +1,2 @@
 # iosEgitimFirstApp
-# IOSEgitimFirstApp
-# iosEgitimFirstApp
+
