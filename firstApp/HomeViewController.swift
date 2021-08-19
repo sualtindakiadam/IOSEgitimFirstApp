@@ -39,6 +39,11 @@ class HomeViewController: UIViewController {
     @IBAction func SimpsonsTableAppClicked(_ sender: Any) {
         performSegue(withIdentifier: "simpsonsTableAppVC", sender: nil)
     }
+    @IBAction func DarkModeAppClicked(_ sender: Any) {
+        performSegue(withIdentifier: "darkModeAppVC", sender: nil)
+    }
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {    //segue olmadan heen önce yapılabilecek işlemler yazılır
         

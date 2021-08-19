@@ -15,6 +15,7 @@
 		952B603E26BD2AD300BF76BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952B603C26BD2AD300BF76BB /* LaunchScreen.storyboard */; };
 		957A542926C3F188007BFCD2 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A542826C3F188007BFCD2 /* CityTableViewController.swift */; };
 		957A542B26C40071007BFCD2 /* CityTableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */; };
+		958110AA26CE489D001C40CB /* DarkModeAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958110A926CE489D001C40CB /* DarkModeAppViewController.swift */; };
 		95A6AB0726C2AB4D00948712 /* JestAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */; };
 		95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */; };
 		95DA30C126C27A680012B58C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DA30C026C27A680012B58C /* HomeViewController.swift */; };
@@ -34,6 +35,7 @@
 		952B603F26BD2AD300BF76BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		957A542826C3F188007BFCD2 /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
 		957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableDetailViewController.swift; sourceTree = "<group>"; };
+		958110A926CE489D001C40CB /* DarkModeAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeAppViewController.swift; sourceTree = "<group>"; };
 		95A6AB0626C2AB4D00948712 /* JestAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JestAppViewController.swift; sourceTree = "<group>"; };
 		95A6AB0826C2B72E00948712 /* CatchGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchGameViewController.swift; sourceTree = "<group>"; };
 		95DA30C026C27A680012B58C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -82,11 +84,12 @@
 				957A542A26C40071007BFCD2 /* CityTableDetailViewController.swift */,
 				95FF6C5226C41AC800EE113D /* SimpsonsTableViewController.swift */,
 				95FF6C5426C41C6000EE113D /* SimpsonsTableDetailViewController.swift */,
+				95FF6C5626C421E000EE113D /* SimpsonsClass.swift */,
+				958110A926CE489D001C40CB /* DarkModeAppViewController.swift */,
 				952B603726BD2AD200BF76BB /* Main.storyboard */,
 				952B603A26BD2AD300BF76BB /* Assets.xcassets */,
 				952B603C26BD2AD300BF76BB /* LaunchScreen.storyboard */,
 				952B603F26BD2AD300BF76BB /* Info.plist */,
-				95FF6C5626C421E000EE113D /* SimpsonsClass.swift */,
 			);
 			path = firstApp;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A6AB0926C2B72E00948712 /* CatchGameViewController.swift in Sources */,
+				958110AA26CE489D001C40CB /* DarkModeAppViewController.swift in Sources */,
 				957A542B26C40071007BFCD2 /* CityTableDetailViewController.swift in Sources */,
 				95FF6C5526C41C6000EE113D /* SimpsonsTableDetailViewController.swift in Sources */,
 				952B603626BD2AD200BF76BB /* ViewController.swift in Sources */,
